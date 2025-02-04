@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+      <nav id="desktop-nav">
+          <div class="logo"><b>Thirunavukkarasu Janakiraman</b></div>
+          <div>
+              <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Work History</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#Projects">Projects</a></li>
+                  <li><a href="#cert">Certification</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+      <nav id="hamburger-nav">
+          <div class="logo">Thirunavukkarasu Janakiraman</div>
+          <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <div class="menu-links">
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  <li><a href="#experience" onclick="toggleMenu()">Work History</a></li>
+                  <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                  <li><a href="#cert" onclick="toggleMenu()">Certification</a></li>
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+          </div>
+      </nav>
+      <section id="profile">
+          <div class="section__pic-container">
+              <img src="./assets/profile-pic.png" alt="Thiru profile picture" />
+          </div>
+
+          <div class="section__text">
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Thiru</h1>
+              <p class="section__text__p2">AWS and DevOps Engineer</p>
+              <div class="btn-container">
+                  <button class="btn btn-color-2"
+                          onclick="window.open('./assets/Thirunavukkarasu J.pdf')">
+                      Download Resume
+                  </button>
+              </div>
+
+              <div id="socials-container">
+                  <img src="./assets/linkedin.png"
+                       alt="My LinkedIn profile"
+                       class="icon"
+                       onclick="location.href='https://linkedin.com/'" />
+              </div>
+          </div>
+      </section>
+
+      <section id="about">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+          <div class="section-container">
+              <div class="section__pic-container">
+                  <img src="./assets/about-pic.png"
+                       alt="Profile picture"
+                       class="about-pic" />
+              </div>
+
+              <div class="about-details-container">
+                  <div class="about-containers">
+                      <div class="details-container">
+                          <img src="./assets/experience.png"
+                               alt="Experience icon"
+                               class="icon" />
+                          <h3>Experience</h3>
+                          <p>2 years <br />Business Associate</p>
+                      </div>
+
+                      <div class="details-container">
+                          <img src="./assets/education.png"
+                               alt="Education icon"
+                               class="icon" />
+                          <h3>Education</h3>
+                          <p>Masters In Computer Application</p>
+                      </div>
+
+                      <div class="details-container">
+                          <img src="./assets/education.png"
+                               alt="Education icon"
+                               class="icon" />
+                          <h3>Education</h3>
+                          <p>BSc. Computer Science</p>
+                      </div>
+                  </div>
+
+                  <div class="text-container">
+                      <p>
+                          "Business Associate | Expertise in DevOps, AWS, and Seamless Operations Management" 
+                          <p>Results-driven and highly professional with a proven track record in managing inbound call operations and delivering exceptional customer service.
+                          Demonstrates expertise in resolving complex customer inquiries, ensuring satisfaction, and maintaining operational excellence.
+                          Proficient in adhering to process standards, optimizing workflows, and achieving performance benchmarks.<p>
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="experience">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Work History</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Sep 2023 - March 2024 </h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>Altruist Technologies Pvt Ltd</h3>
+                                  <p>
+                                      Business Associate - Operations
+                                  </p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Sep 2021 - May 2022 </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      Mahendra Next Wealth IT India Pvt Ltd
+                                  </h3>
+                                  <p> Trainee Executive </p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <section id="skills">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Skills</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title">Development</h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Amazon Web Services</h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>DevOps</h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Python</h4>
+                                  <p>Intermediate</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Scripting</h4>
+                                  <p>Beginner</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>HTML, CSS, JavaScript</h4>
+                                  <p>Beginner</p>
+                              </div>
+                          </article>
+
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Tools</h2>
+                      <div class="article-container">
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Terraform </h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Git</h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>
+                                      Slack
+                                      - For Communication
+                                  </h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>
+                                      Grafana
+                                      - For Monitoring
+                                  </h4>
+                                  <p>Experienced</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Visual Studio</h4>
+                                  <p>Beginner</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Jenkins</h4>
+                                  <p>Beginner</p>
+                              </div>
+                          </article>
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h4>Docker</h4>
+                                  <p>Beginner</p>
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="Projects">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Projects</h1><br>
+          <div class="Project-details-container">
+              <div class="project-containers">
+                  <div class="project-details">
+                      <h2 class="Project-sub-title"> CI/CD Pipeline for Web App using Docker, Jenkins, and AWS  </h2><br>
+                      <div>
+                          <h4>
+                              <li>Designed and implemented a CI/CD pipeline for a Node.js web application using Jenkins, Docker, and AWS EC2.</li><br>
+                              <li>Automated the build, testing, and deployment process using Jenkins pipelines with integrated GitHub version control.</li><br>
+                              <li>Deployed the application on an AWS EC2 instance using Docker containers.</li><br>
+                              <li>Set up AWS CloudWatch for monitoring and logging the application.</li><br>
+                              <li>Tools: Jenkins, Docker, Git, AWS (EC2, S3, CloudWatch), Python/Node.js.</li><br>
+                          </h4>
+                      </div>
+                  </div><br>
+
+                  <div class="btn-container">
+                      <button class="btn btn-color-2"
+                              onclick="window.open('./assets/Thirunavukkarasu J.pdf')">
+                          Code
+                      </button>
+                  </div><br>
+
+                  <div class="Project-details-container">
+                      <div class="project-containers">
+                          <div class="project-details">
+                              <h2 class="Project-sub-title"> Website Monitoring using Cloud Watch</h2><br>
+                              <div>
+                                  <h4>
+                                      <li>The process of website monitoring involves ensuring that the website is fully operational and that users can navigate the site without any issues.</li><br>
+                                      <li>In this real-time AWS project, I utilize various AWS tools like Amazon DynamoDB, Lambda, Cloud Watch, and MySQL to create effective solutions for website monitoring.</li><br>
+                                      <li>Start by setting up an AWS EC2 instance. Customizing Roles and Policies in (IAM) Use AWS Lambda for loading order logs into Amazon DynamoDB and S3, Utilize Kinesis Analytics to stream the data in real-time.</li><br>
+                                  </h4>
+                              </div>
+                          </div><br>
+
+                          <div class="btn-container">
+                              <button class="btn btn-color-2"
+                                      onclick="window.open('./assets/Thirunavukkarasu J.pdf')">
+                                  Code
+                              </button>
+                          </div><br>
+
+                          <div class="Project-details-container">
+                              <div class="project-containers">
+                                  <div class="project-details">
+                                      <h2 class="Project-sub-title">Cloud - Kitchen </h2><br>
+                                      <div>
+                                          <h4>
+                                              <li>Developed a cloud-based kitchen management platform to revolutionize operations and efficiency in the food delivery industry. </li><br>
+                                              <li>This platform harnesses a microservices architecture  including EC2, S3, RDS, Lambda, and API Gateway, to meticulously craft a robust and scalable infrastructure. </li><br>
+                                              <li>Integrated with Amazon RDS and AWS CloudWatch for centralized logging and monitoring of system health and performance.</li><br>
+                                              <li>Technologies Used: AWS: EC2, S3, RDS, EBS, Lambda, API Gateway, CloudWatch, etc.</li><br>
+                                          </h4>
+                                      </div>
+                                  </div><br>
+                                  <div class="btn-container">
+                                      <button class="btn btn-color-2"
+                                              onclick="window.open('./assets/Thirunavukkarasu J.pdf')">
+                                          Code
+                                      </button>
+                                  </div><br>
+
+                                  </article>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      </section>
+
+
+      <section id="cert">
+          <p class="section__text__p1">Explore My</p>
+          <h1 class="title">Certifications</h1>
+          <div class="experience-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> AWS and DevOps Fullstack </h2>
+                      <div class="article-container">
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3> at Soft Logic Systems </h3>
+
+                              </div>
+                          </article>
+
+                      </div>
+                  </div>
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Python Developer </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      at Live Wire
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+
+                  <div class="details-container">
+                      <h2 class="experience-sub-title"> Data Science </h2>
+                      <div class="article-container">
+
+
+                          <article>
+                              <img src="./assets/checkmark.png"
+                                   alt="Experience icon"
+                                   class="icon" />
+                              <div>
+                                  <h3>
+                                      at Live Wire
+                                  </h3>
+
+                              </div>
+                          </article>
+                      </div>
+                  </div>
+
+
+              </div>
+          </div>
+
+      </section>
+
+      <section id="contact">
+          <p class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                  <img src="./assets/email.png"
+                       alt="Email icon"
+                       class="icon contact-icon email-icon" />
+                  <p><a href="mailto:thirunavukkarasujanakiraman@gmail.com">thirunavukkarasujanakiraman@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                  <img src="./assets/linkedin.png"
+                       alt="LinkedIn icon"
+                       class="icon contact-icon" />
+                  <p><a href="https://www.linkedin.com/in/thirunavukkarasu-janakiraman">LinkedIn</a></p>
+              </div>
+          </div>
+      </section>
+      <br>
+      <footer>
+          <nav>
+              <div class="nav-links-container">
+                  <ul class="nav-links">
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#experience">Work History</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#Projests">Projects</a></li>
+                      <li><a href="#cert">Certification</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+          <p>Copyright &#169; 2025 Thiru. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
